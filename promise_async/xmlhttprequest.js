@@ -1,4 +1,4 @@
-var XMLHttpRequest = require("xhr2");
+// var XMLHttpRequest = require("xhr2");
 function handleClick() {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
