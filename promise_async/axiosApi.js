@@ -1,11 +1,14 @@
-console.log("123");
-
+import axios from "axios";
 axios
-    .get("https://jsonplaceholder.typicode.com/posts")
-    .then((response) => {
-    setPosts(response.data);
-    .catch((error) => {
-    console.error(error);
-    });
-
-
+  .get("https://64ef0a8b219b3e2873c3d8c2.mockapi.io/user")
+  .then((response) => {
+    console.log(response.data);
+  });
+// const data = response.data; // Extract the response data
+    // data.forEach((e) => {
+    //   console.log(e.name);
+    // });
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });
